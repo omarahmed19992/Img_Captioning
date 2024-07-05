@@ -1,4 +1,4 @@
-numpy --upgrade
+numpy 
 tqdm
 tensorflow
 Pillow
@@ -7,3 +7,4 @@ h5py
 opencv_contrib_python
 pandas
 streamlit
+pickle
