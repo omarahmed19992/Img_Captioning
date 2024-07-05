@@ -1,5 +1,8 @@
 numpy
 tqdm
 tensorflow
-pillow
+Pillow
 keras
+h5py
+opencv_contrib_python
+pandas
