@@ -29,10 +29,10 @@ resnet_model = ResNet50()
 resnet_model = Model(inputs=resnet_model.inputs, outputs= resnet_model.layers[-2].output)
 
 @st.cache_resource
-def model_loading():
-    model = load_model("best_model.h5")
+def load_model():
+    model = load_model('best_model.h5')
     return model 
-model = model_loading()
+model = load_model()
 
 # Load tokenizer 
 with open('tokenizer.pickle', 'rb') as handle:
