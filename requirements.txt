@@ -7,5 +7,3 @@ h5py
 opencv_contrib_python
 pandas
 streamlit
-pyproject.toml-based
-pickle5
